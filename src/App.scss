@@ -1,0 +1,20 @@
+//the main style file for the component
+
+//bootstrap style for the application
+@import "~bootstrap/scss/bootstrap.scss";
+
+//react toastify style
+@import 'react-toastify/dist/ReactToastify.css';
+
+
+.register-form {
+  @media (max-width: 768px) {
+    width: 95vw !important;
+  }
+  // @media (max-width: 992) {
+  //   width: 75vw !important;
+  // }
+  @media (min-width: 992) {
+    width: 50vw !important;
+  }
+}
